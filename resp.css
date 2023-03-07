@@ -1,0 +1,210 @@
+@media(max-width:1174px){
+    #menu{
+       display:none;
+    }
+}
+
+@media(max-width:990px){
+    #slider img{ 
+    margin-top: -154px !important;
+}
+.lifeAtMMcHeading a {
+    font-size: 17px;
+}
+.footerItem h4,p {
+    text-align: center;
+    font-size: 17px;
+}
+.upperImageItem img {
+    height: auto;
+    width: 74%;
+}
+.itemContainer {
+   margin: 0px;
+}
+.news-text {
+    margin-bottom: 24px;
+}
+
+.cmItem img {
+     height: 50%; 
+}
+.cmItem {
+    margin: 0;
+}
+.studentOpinionItem {
+    margin: 45px 0;
+}
+.studentOpinion {
+    grid-template-columns: 2fr;
+}
+.news-line-container2 {
+    margin:0px;
+}
+.cmItem img {
+    height: 35%;
+    margin-top: 50%;
+}
+.eventLists {
+    grid-template-columns: 2fr;
+    justify-items: center;
+}
+.footerItem h2{
+    font-size: 15px;
+}
+.footerItem h4{
+    font-size: 13px;
+}
+.footerItem p{
+    font-size: 12px;
+}
+}
+@media(max-width:900px){
+    .photoCollectionItem img{
+        width: 120px;
+    }
+}
+@media(max-width:892px){
+    .acaProgramOptios {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    }
+    .galaryExp {
+        top: 147px;
+    }
+}
+@media(max-width:776px){
+    #slider img {
+        margin-top: -70px !important;
+    }
+    .galaryExp {
+        top: 102px;
+    }
+ .photoCollectionItem img {
+    width: 76px;
+}
+.overlayText2 {
+    left: 15%;
+    width: 69%;
+
+}
+    .chairMessage {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cmItem {
+        height: fit-content;
+    }
+    .cmItem img {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .itemContainer h4 {
+        font-size: 14px;
+    }
+    .footerlogo {
+        max-width: 174px;
+    }
+    
+.footerContainer {
+    margin-top: -76px;
+}
+.eventListChild h2 {
+    font-size: 15px;
+}
+.Jan {
+    font-size: 17px;
+}
+.acaPrograms h2 {
+    font-size: 18px;
+}
+}
+@media(max-width:644px){
+    .wrapper {
+        width: 350px;
+    }
+    .saidPara {
+        font-size: 14px;
+    }
+    .Vis {
+        width: 40px;
+        height: 40px;
+    }
+    .footerItem h2 {
+        font-size: 9px;
+    }
+    .footerItem h4 {
+        font-size: 7px;
+    }
+    .footerItem p {
+        font-size: 8px;
+    }
+    .footerBar span {
+        font-size: 12px;
+    }
+}
+@media(max-width:510px){
+    .photoCollectionItem img {
+        width: 69px;
+    }
+    .itemContainer h4 {
+        font-size: 12px;
+    }
+    .itemContainer {
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+ }
+ .notContainer {
+    grid-template-columns: 2fr 2fr;
+    max-height: 353px;
+    margin-bottom: 100px;
+}
+.itemContainer img {
+    width: 90%;
+    height: 140px;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+}
+.acaProgramOptios a {
+    font-size: 14px;
+}
+.acaprogramOptionsItem {
+    margin: 4PX 0PX 7PX 0PX;
+    width: 73px;
+}
+.Cpara p {
+    padding: 0px 14px;
+}
+.noticedNav .noticeItmem {
+    font-size: 9px;
+}
+.footerItem h4, p {
+    text-align: center;
+    font-size: 12px;
+}
+.overlayText2 {
+    left: 10%;
+    width: 80%;
+}
+}
+
+@media(max-width:450px){
+    .photoCollectionItem img {
+        width: 53px;
+    }
+    .footerlogo {
+        max-width: 109px;
+    }    
+    .wrapper {
+        width: 300px;
+        height: 300px;
+    }
+    .calendar .days li {
+        margin-top: 10px;
+    }
+}

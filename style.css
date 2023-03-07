@@ -1,0 +1,712 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    background-color: #353740;
+    color: white;
+}
+/* First Nav | Having Location Info and more Notice  CSS*/
+.noticedNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    background-color:#202e24;
+    color: aliceblue;
+    padding: 5px 0px 5px 0px;
+}
+.noticedNav .noticeItmem{
+    text-align: center;
+
+}
+.noticedNav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Font Awesome 5 Free";
+
+}
+/* Image yello color banner CSS */
+.upperImageItem img{
+height: auto;
+max-width: 90%;
+}
+.upperImageItem {
+    display: flex;
+    justify-content: center;
+
+}
+.upperImage{
+margin: 10px auto;
+}
+
+/* Main NavBar CSS | having option Home, Contact and more.. */
+/* Style for the menu and dropdowns */
+#menu ul {
+display: flex;
+list-style: none;
+text-decoration: none;
+display: flex;
+padding: 22px;
+justify-items: baseline;
+background-color:#505356 ;
+
+
+}
+#menu{
+background-color:#002e5b ;
+}
+#menu ul li  {
+padding: 0px 7px 0px 7px;
+height: 45px;
+z-index: 3;
+transition: all 0.5s ease;
+}
+#menu ul ul li  {
+transition: all 1s ease;
+}
+#menu ul  {
+padding: 0px 7px 0px 7px;
+justify-content: center;
+z-index: 1;
+
+}
+#menu ul li a {
+display: flex;
+list-style: none;
+text-decoration: none;
+color: white;
+height: 45px;
+/* margin-top: 12px; */
+align-items: center;
+
+}
+
+    #menu ul ul {
+display: none;
+position: absolute;
+}
+    #menu ul li:hover > ul {
+        display: block;
+
+
+    }
+#menu ul li:hover{
+  background-color: #5f6366;
+}
+    .fromLeft{
+        border: 2px solid;
+left: 108px;
+position: absolute;
+top: 63px;
+margin: 0;
+height: auto;
+    }
+    .fromLeft2{
+        border: 2px solid;
+left: 70%;
+position: absolute;
+top: 78px;
+margin: 0;
+height: auto;
+    }
+
+/* IMAGE SLIDER CSS  */
+*{
+margin: 0;
+padding: 0;
+}
+.slider-box {
+width     : 100%;
+max-height: 90vh;
+position  : relative;
+overflow  : hidden;
+margin    : 30px auto;
+top: -30px;
+background-color: black;
+}
+
+#slider {
+width     : 100%;
+display   : inline-flex;
+transition: 0.7s;
+border: 2px solid red;
+
+
+}
+
+#slider img {
+width: 100%;
+opacity: 70%;
+
+}
+
+.indicators {
+position : absolute;
+left     : 50%;
+bottom   : 20px;
+transform: translateX(-50%);
+}
+
+.indicators span {
+display      : inline-block;
+width        : 15px;
+height       : 15px;
+border-radius: 50%;
+background   : rgba(255, 255, 255, 0.5);
+cursor       : pointer;
+}
+
+
+/* 4 Container CSS */
+.notContainer{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+max-height: 350px;
+margin-bottom: 40px;
+}
+.itemContainer h4{
+max-width: 98%;
+text-align: center;
+margin-top: 24px;
+color: white;
+}
+.itemContainer h4:hover{
+color: rgb(158, 142, 245);
+}
+.itemContainer img{
+width: 90%;
+height: 52%;
+margin: 0;
+display: block;
+margin: 0 auto;
+border-radius: 12px;
+
+}
+.itemContainer{
+display: flex;
+justify-content: space-around;
+height: 70%;
+position: relative;
+margin: 11px;
+
+}
+.itemContainer a{
+text-decoration: none;
+
+}
+
+
+/* */
+/* Text On image  */
+.overlayText2 {
+position: absolute;
+left: 29%;
+top: 15%;
+width: 40%;
+text-align: center;
+align-items: center;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+z-index: 1;
+}
+
+/* Button on image  */
+.cntUs, .abtUs{
+width: 100px;
+height: 38px;
+border-radius: 5px;
+font-size: 17px;
+cursor: pointer;
+
+}
+
+.abtUs{
+background-color: #002e5b;
+color: white;
+border: none;
+
+}
+.cntUs{
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+.btttn{
+position: relative;
+top: 22px;
+}
+.cntUs:hover{
+border: 2px solid wheat;
+}
+.abtUs:hover{
+background-color: #1c3249;
+}
+.post-date{
+position: absolute;
+top: 239px;
+margin-top: 22px;
+}
+
+
+/* :horizontal Line  */
+.news-line-container {
+display: flex;
+align-items: center;
+}
+
+.news-line-left, .news-line-right {
+flex: 1;
+border-top: 2px solid #838080;
+margin: 0px 22px;
+border-bottom: #838080;
+border-top: 2px solid #838080;
+}
+
+.news-line-right {
+margin-left: 10px;
+}
+
+.news-text {
+margin: 0 10px;
+font-weight: bold;
+font-size: 20px;
+}
+/* Chairperson container  */
+.chairMessage{
+display: flex;
+margin-bottom: 43px;
+/* background-color: #35374a; */
+border-radius: 22px;
+}
+.cmItem img{
+width: 96%;
+height: 76%;
+border-radius: 29px 22px 2px 33px;
+}
+.cmItem{
+width: 100%;
+/* position: absolute; */
+margin: 0 44px 0 44px;
+}
+.cImage{
+flex: 1.5;
+}
+.Cpara{
+flex: 3;
+background-color: #3c3c3c;
+}
+.Cpara p{
+margin-top: 7px;
+padding: 0px 34px;
+line-height: 1.4;
+text-align: justify;
+}
+.Cpara h2{
+text-align: center;
+}
+.hrRed{
+width: 84px;
+text-align: center;
+margin: 0 auto;
+margin-top: 6px;
+background-color: #838080;
+border-color:#838080;
+height: 3px;
+
+}
+.cName2 p{
+text-align: center;
+font-weight: bold;
+
+}
+.chP{
+color: #a7a7a7;
+text-align: center;
+
+}
+
+
+/* What our Student Says Part  */
+.news-line-container2{
+display: flex;
+align-items: center;
+margin: 0px 0px 83px 0px;
+}
+.studentOpinion{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr;
+justify-items: center;
+margin-bottom: 27px;
+
+}
+.studentOpinionItem {
+width: 94%;
+border-radius: 32px;
+background-color: #40434e;
+
+}
+.studentOpinionItem img{
+width: 150px;
+height: 150px;
+display: block;
+margin: 0 auto;
+border-radius: 50%;
+position: relative;
+top: -65px;
+}
+
+.saidPara{
+text-align: justify;
+margin: 4px 13px 4px 13px;
+position: relative;
+top: -35px;
+box-shadow: 0 15px 40px rgb(0 0 0 / 12%);
+}
+.stuName{
+text-align: center;
+position: relative;
+top: -57px;
+color: #8eabc7;
+}
+.stuRank{
+text-align: center;
+}
+
+/* Academic Programs CSS here  */
+.acaPrograms h2{
+text-align: center;
+text-transform: uppercase;
+}
+.acaProgramOptios{
+display: flex;
+justify-content: center;
+/* width: 1100px; */
+text-align: center;
+margin: 13px auto;
+/* border: 2px solid gray; */
+border-radius: 12px;
+}
+.acaprogramOptionsItem{
+margin: 12PX 12PX 12PX 12PX;
+background-color: #404b56;
+width: 76px;
+border-radius: 12px;
+}
+.acaProgramOptios a{
+text-decoration: none;
+color: #dce2e7;
+font-size: 18px;
+}
+.acaprogramOptionsItem a:hover{
+text-decoration:dashed;
+color: #99caf3;
+/* background-color: #323538; */
+}
+.acaprogramOptionsItem:hover{
+background-color: #313233;
+}
+.viewDetailsBtn{
+background-color: #404b56; 
+width: 120px;
+margin: 0 auto;
+border-radius: 6px;
+}
+.viewDetailsBtn a{
+color: white;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 19px;
+}
+/* Life At MMC CSS  */
+.lifeAtMMcHeading{
+text-align: center;
+}
+.lifeAtMMcHeading a{
+background: linear-gradient(to right, rgb(108 108 108), #737b8b, #e2e1f1);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.lifeAtMMC{
+background:url(img/main\ 1.jpg);
+background-size: cover;
+background-position: center;
+opacity: 90%;
+position: relative;
+
+}
+.photoCollection{
+display: flex;
+justify-content: center;
+}
+.photoCollectionItem{
+margin-bottom: 43px;
+margin-top: 22px;
+}
+.galaryExp{
+position: absolute;
+top: 183px;
+background: linear-gradient(to right, rgb(255 255 255), #e0e4ed, #dfd021);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 1px solid white;
+padding: 0px 14px;
+border-radius: 25px;
+font-weight: bold;
+}
+.galaryExp:hover{
+position: absolute;
+top: 183px;
+background: linear-gradient(to right, rgb(75 255 0), #e0e4ed, #dfd021);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: 1px solid #9f9090;
+}
+
+/* Calaendar Event Part  */
+.wrapper{
+width: 450px;
+background: #3f3f4a;
+border-radius: 10px;
+box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.wrapper header{
+display: flex;
+align-items: center;
+padding: 25px 30px 10px;
+justify-content: space-between;
+}
+header .icons{
+display: flex;
+}
+header .icons span{
+height: 38px;
+width: 38px;
+margin: 0 1px;
+cursor: pointer;
+color: #878787;
+text-align: center;
+line-height: 38px;
+font-size: 1.9rem;
+user-select: none;
+border-radius: 50%;
+}
+.icons span:last-child{
+margin-right: -10px;
+}
+header .icons span:hover{
+background: #f2f2f2;
+}
+header .current-date{
+font-size: 1.45rem;
+font-weight: 500;
+}
+.calendar{
+padding: 20px;
+}
+.calendar ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+text-align: center;
+}
+.calendar .days{
+margin-bottom: 20px;
+}
+.calendar li{
+color: #afb0b3;
+width: calc(100% / 7);
+font-size: 1.07rem;
+}
+.calendar .weeks li{
+font-weight: 500;
+cursor: default;
+}
+.calendar .days li{
+z-index: 1;
+cursor: pointer;
+position: relative;
+margin-top: 30px;
+}
+.days li.inactive{
+color: #aaa;
+}
+.days li.active{
+color: #fff;
+}
+.days li::before{
+position: absolute;
+content: "";
+left: 50%;
+top: 50%;
+height: 40px;
+width: 40px;
+z-index: -1;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+}
+.days li.active::before{
+background: #158882;
+}
+.days li:not(.active):hover::before{
+background: #f2f2f2;
+}
+.eventLists{
+display: grid;
+grid-template-columns: 2fr 2fr;
+background-color: #353740;
+margin: 15px 36px;
+
+}
+.eventListItems2{
+margin: 90px 0px;
+}
+.eventListChild{
+margin: 20px 0px;
+}
+.eventListChild a{
+text-decoration: none;
+font-size: 22px;
+font-size: 14px;
+}
+.Jan{
+display: inline-block;
+background-color: #1b1d1e;
+border-radius: 7px;
+color: white;
+font-size: 22px;
+width: 60px;
+text-align: center;
+}
+
+.eventListChild h2{
+display: inline;
+color: #6f75a3
+}
+
+/* NOTICE  */
+.fixed-button {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 9999;
+}
+
+.main-button {
+background-color: #4CAF50;
+color: white;
+padding: 12px 24px;
+border: none;
+border-radius: 25px 0 0 25px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.options {
+display: none;
+position: absolute;
+bottom: 60px;
+right: 0;
+border-radius: 0 0 5px 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+animation: expand 0.3s ease-in-out forwards;
+width: 200px;
+}
+
+.option {
+display: block;
+width: 100%;
+text-align: left;
+padding: 10px;
+border: none;
+background-color: rgb(112, 108, 108);
+cursor: pointer;
+color:white;
+}
+
+
+/* Show the options when the main button is clicked */
+.main-button:focus + .options {
+display: block;
+animation: expand 0.3s ease-in-out forwards;
+}
+
+/* Show the close button when the options are expanded */
+.options:focus-within .close-button {
+display: block;
+}
+
+/* Animate the main button when the options are expanded */
+.options:focus-within .main-button {
+border-radius: 25px 0 0 0;
+}
+
+/* Animate the options when they are expanded */
+@keyframes expand {
+0% {
+height: 0;
+opacity: 0;
+}
+100% {
+height: 200px;
+opacity: 1;
+}
+}
+
+/* FOoter  */
+.footerContainer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 9px;
+}
+.footerItem{
+margin: 8px;
+}
+.footerItem h2{
+text-align: center;
+}
+.footerItem h4, p{
+text-align: center;
+}
+.Vis{
+width: 100px;
+height: 100px;
+margin: 0 auto;
+display: block;
+border-radius: 50%;
+}
+
+.footerlogo{
+max-width: 400px;
+}
+
+.footerBar{
+background-color: #484745;
+display: flex;
+}
+.footerBar span{
+text-align: center;
+margin: 0 auto;
+}
+.fa-heart{
+color: black;
+}
+.MenuBr img{
+width: 30px;
+opacity: 73%;
+height: 35px;
+
+}
+.MenuBr {
+display: flex;
+justify-content: end;
+margin-right: 22px;
+margin-bottom: 44px;
+
+}
